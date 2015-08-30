@@ -1,0 +1,100 @@
+{
+	"resources": [
+		{
+			"name": "bgImage",
+			"type": "image",
+			"url": "assets/Background.jpg"
+		},
+		{
+			"name": "setting",
+			"type": "json",
+			"url": "config/setting.json"
+		},
+		{
+			"name": "bgImage",
+			"type": "image",
+			"url": "assets/Background.jpg"
+		},
+		{
+			"name": "game_sheet",
+			"type": "sheet",
+			"url": "assets/item_sheet.json"
+		},
+		{
+			"name": "roleImage",
+			"type": "image",
+			"url": "assets/Role.png"
+		},
+		{
+			"name": "roleJson",
+			"type": "json",
+			"url": "assets/Role.json"
+		},
+		{
+			"name": "snowImage",
+			"type": "image",
+			"url": "assets/newParticle.png"
+		},
+		{
+			"name": "snowJson",
+			"type": "json",
+			"url": "assets/newParticle.json"
+		},
+		{
+			"name": "ballJson",
+			"type": "json",
+			"url": "assets/zj_lizitx.json"
+		},
+
+		{
+			"name": "explodeImage",
+			"type": "image",
+			"url": "assets/Explode.png"
+		},
+		{
+			"name": "explodeJson",
+			"type": "json",
+			"url": "assets/Explode.json"
+		},
+		{
+			"name": "start_sheet",
+			"type": "sheet",
+			"url": "assets/start_sheet.json"
+		},
+		{
+			"name": "startBg",
+			"type": "image",
+			"url": "assets/startBg.jpg"
+		},
+		{
+			"name": "bgMusic",
+			"type": "sound",
+			"url": "assets/bj_yx.mp3"
+		},
+		{
+			"name": "buffMusic",
+			"type": "sound",
+			"url": "assets/cgs_yx.mp3"
+		},
+		{
+			"name": "mstMusic",
+			"type": "sound",
+			"url": "assets/gw_yx.mp3"
+		},
+		{
+			"name": "modeMusic",
+			"type": "sound",
+			"url": "assets/zj_wd_yx.mp3"
+		}
+	],
+	"groups": [
+		{
+			"name": "preload",
+			"keys": "setting,start_sheet,startBg,bgMusic"
+		},
+		{
+			"name": "game",
+			"keys": "bgImage,roleImage,roleJson,game_sheet,snowImage,snowJson,explodeImage,explodeJson,mstMusic,buffMusic,modeMusic"
+		}
+	]
+}
